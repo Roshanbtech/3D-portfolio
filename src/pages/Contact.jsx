@@ -34,7 +34,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Roshan Reji",
           from_email: form.email,
-          to_email:import.meta.env.VITE_APP_EMAILJS_TO_EMAIL,
+          to_email:'chn19ec071@ceconline.edu',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
